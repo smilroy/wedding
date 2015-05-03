@@ -59,7 +59,8 @@ NAVIGATION
 nav {
   text-align: center;
   padding: 10px 0;
-  margin: 20px 0 0;
+  margin: 0 auto;
+  width:100%;
 }
 
 nav ul {
@@ -69,9 +70,10 @@ nav ul {
 }
 
 nav li {
-  display: block;
+  display: inline;
   margin: 10px;
 }
+
 
 nav a {
   font-family: 'Journal', sans-serif;
@@ -101,8 +103,19 @@ PAGE: HOME
 #marquee{
     width = 75%;
     margin: auto 12.5%;
+    margin-top: 0%;
     padding-bottom: 10px;
-    font-size: 5em;
+    font-size: 6em;
+    color: #fff;
+    text-align: center;
+    font-family: 'Journal', sans-serif;
+}
+
+#location{
+    width = 75%;
+    margin: auto 12.5%;
+    padding-bottom: 10px;
+    font-size: 3em;
     color: #fff;
     text-align: center;
     font-family: 'Journal', sans-serif;
@@ -200,8 +213,31 @@ PAGE: ACCOMODATIONS
   background-image: url('../img/mail.png');
 }
 
+/**********************************
+PAGE: HORA
+***********************************/
 
+.clear {
+    clear: both;
+}
 
+#textbox{
+    background-color: #fff;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 5%;    
+}
+  
+  .video {
+	height:100%;
+    width:100%;
+    overflow:hidden;
+    margin-bottom: 10px;
+  }
+
+  .break {
+    clear:both;
+  }
 /**********************************
 COLORS
 ***********************************/

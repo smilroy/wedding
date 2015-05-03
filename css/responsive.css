@@ -13,6 +13,37 @@
     width: 40%;
     float: right;
   }
+    
+  .aParent div {
+  float: left;
+  clear: none; 
+}
+
+  .left {
+    width: 50%;
+    float: left;
+  }
+  
+  .right {
+    width: 40%;
+    float: right;
+    margin-left: 10px;
+  }
+  .break {
+    clear:both;
+  }
+    
+.home li {
+  display: block;
+  margin: 10px;
+    }
+    
+nav {
+  text-align: center;
+  margin: 0 auto;
+  width:100%;
+}
+
 }
 
 @media screen and (min-width: 660px) {
@@ -20,8 +51,16 @@
   /**********************************
   HEADER
   ***********************************/
-
-  nav {
+ nav {
+    background: none;
+    float: left;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: center;
+    width: 100%;
+  }
+  
+ .home {
     background: none;
     float: left;
     font-size: 1.125em;
@@ -30,8 +69,13 @@
     width: 45%;
   }
 
+.home li {
+  display: block;
+  margin: 10px;
+}
+
   header {
-    margin-bottom: 60px;
+    margin-bottom: 5px;
   }
     
   #directions{
@@ -56,6 +100,7 @@
   #bottom-box{
     margin: 5%;  
   }
+
 }
 
 
